@@ -1,8 +1,8 @@
 # Musicalzz
+# Website link ------>https://rushikeshp2002.github.io/Musicalzz/
 
-<h1>Home</h1>
+<h1>Start page</h1>
 <hr>
-<h1>The Part which is developed</h1>
 <br>
 <img src="https://github.com/Rushikeshp2002/Images/blob/main/index%20.png" style="width:100%">
 <hr>
