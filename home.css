@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("bgimg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* <-------HEADER--------> */
+header{
+    min-width: 100%;
+    
+}
+
+.create{
+    text-decoration: none;
+    color: white;
+    font-family: Monofett;
+    font-size: 2.2rem;
+    position: relative;
+    bottom: .700rem;
+    left: 25rem;
+}
+
+/* <--------Nav  UL LI---------->*/
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+/*<------- NAV -------------->*/
+
+
+nav{
+    background: rgba(6, 6, 6, 0.35);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*<-------- Music ---------->*/
+
+
+.music{
+    transform: translate(-100%,-10%);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3.5vw;
+
+}
+
+/*<-------- Music Hovering Effect ------>*/
+
+.music:hover{
+    background-image: linear-gradient(
+        -225deg,
+        #ff7878 0%,
+        #ffd342 29%,
+        #ff1361 67%,
+        #81ff38 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      /* text-fill-color: transparent; */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s ease-in-out infinite;
+
+      
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+
+}
+
+/* <-----------MAIN------------> */
+
+/* ------ MAIN CONTAINER ------- */
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #fff; */
+}
+
+
+
+/* -------CARDS SECTION INSIDE CONTAINER WHICH CONTAINS CARDS--------- */
+.cards{
+    margin: auto;
+    width: 80vw;
+    height: 90vh;
+    padding-top: 30px;
+     /* background-color: black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1vw;
+    
+    
+    
+}
+
+/* -------A HREF LINK --------- */
+.cards a{
+    text-decoration: none;
+}
+
+
+/* -------FIRST CARD--------- */
+.card1{
+    
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    border-radius: 10px;
+    background-image: url("card1.jpg");
+    background-size: cover;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+/* -------SECOND CARD------ */
+.card2{
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    border-radius: 10px;
+    background-image: url("card2.jpg");
+    background-size: cover;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+/* -------THIRD CARD------- */
+
+.card3{
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    border-radius: 10px;
+    /* background-color:#81ff38; */
+    background-image: url("card3.jpg");
+    background-size: cover;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* -------FOURTH CARD-------- */
+.card4{
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    border-radius: 10px;
+    /* background-color:#38ff56; */
+    background-image: url("card4.jpg");
+    background-size: cover;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* ---------FIFTH CARD--------- */
+.card5{
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    border-radius: 10px;
+    /* background-color:#38f8ff; */
+    background-image: url("card5.jpg");
+    background-size: cover;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+/* ------SIXTH CARD------ */
+.card6{
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    border-radius: 10px;
+    /* background-color:#f7f0f0; */
+    background-image: url("card6.jpg");
+    background-size: cover;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+
+/* -----THIS WAS MADE FOR HOVER TEXT EFFECT, A SECTION INSIDE CARDS WHICH WILL BE VISIBLE ON HOVER---- */
+.ncard1{
+    margin: auto;
+    width: 19vw;
+    height: 43vh;
+    color: transparent;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    
+    
+    
+}
+
+/* ------CSS FOR THE HOVER EFFECT----- */
+.ncard1:hover{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    background-color: rgb(6, 6, 6) ;
+    opacity: 0.6;
+    
+}

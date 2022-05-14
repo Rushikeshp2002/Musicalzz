@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("bgimg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* <-------HEADER--------> */
+header{
+    min-width: 100%;
+    
+}
+
+
+
+.home{
+    text-decoration: none;
+    color: white;
+    font-family: Monofett;
+    font-size: 2.4rem;
+    position: relative;
+    bottom: .700rem;
+    left: 25rem;
+}
+
+
+/* <--------Nav  UL LI---------->*/
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+/*<------- NAV -------------->*/
+
+
+nav{
+    background: rgba(6, 6, 6, 0.35);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*<-------- Music ---------->*/
+
+
+.music{
+    transform: translate(-100%,-10%);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3.5vw;
+
+}
+
+/*<-------- Music Hovering Effect ------>*/
+
+.music:hover{
+    background-image: linear-gradient(
+        -225deg,
+        #ff7878 0%,
+        #ffd342 29%,
+        #ff1361 67%,
+        #81ff38 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      /* text-fill-color: transparent; */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s ease-in-out infinite;
+
+      
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+
+}
+
+
+/* ------CONTAINER----- */
+.container {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40vw;
+	height: 80vh;
+	margin-left: 31%;
+    margin-top: 2%;
+	background: #ffffff;
+	box-shadow: 17px 17px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 29px 29px;
+}
+
+
+/* --------FORM--------- */
+form{
+    position: relative;
+    top: -4rem;
+    line-height: 2.2rem;
+}
+
+
+/* ------PARAGRAPH CSS--------- */
+p{
+    font-family: "Sunflower";
+    color: #716a6a;
+}
+
+/* ---------SEPEARATE CSS FOR FORMS---------- */
+.title{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    position: relative;
+    padding: 0px 10px;
+    border: 1px solid #716a6a;
+    
+}
+
+.Scale{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: 1px solid #716a6a;
+}
+
+.Notes{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: 1px solid #716a6a;
+}
+
+
+
+
+/* --------NEXT BUTTON CSS-------- */
+.next{
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: 50px;
+    background-color:#FF6A6A;
+    border-radius: 10px;
+    width: 31.5vw;
+    height: 5vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    padding: 7px 0px 5px 5px;
+      
+}
+
+
+/* -------POST BUTTON CSS------- */
+.post{
+	display: grid;
+    margin-top: 6vw;
+    margin-bottom: -10vw;
+	border: none;
+	background-color:#7f68fc;
+    border-radius: 10px;
+    width: 32vw;
+    height: 6vh;
+    color: white;
+	font-size: 1rem;
+	padding: 7px 0px 5px 5px;
+	font-family: 'Noto Sans Malayalam', sans-serif;
+
+}
+
+
+/* --------POST BUTTON CSS CODE---------- */
+.post:hover{
+	background-color: white;
+	border:1px solid #7f68fc;
+	color:#7f68fc;
+	
+}
+
+

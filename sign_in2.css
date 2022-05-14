@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* -------BODY-------- */
+body {
+	max-width: 100%;
+	min-height: 100%;
+	background: #A073FF;
+    overflow: hidden;
+}
+
+
+
+/* ------CONTAINER----- */
+.container {
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 40vw;
+	height: 30vh;
+	position: absolute;
+	width: 70vw;
+	height: 70vh;
+	left: 250px;
+	top: 120px;
+	background: #ffffff;
+	box-shadow: 17px 17px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 29px 29px;
+}
+
+
+
+/* --------RIGHT SECTION OF THE FORM-------- */
+.box2 {
+	width: 100%;
+	position: relative;
+    top: -30px;
+	left: 150px;
+    display: block;
+}
+
+
+/* ---------PARAGRAPH OF THE FORM--------- */
+.box2 p {
+	font-family: "Sunflower", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	color: #716a6a;
+}
+
+
+
+
+/* ---------SEPEARATE CSS FOR FORMS---------- */
+.user{
+    width: 18vw;
+    height: 4.5vh;
+    border-radius: 10px;
+    position: relative;
+    padding: 0px 10px;
+    color: #716a6a;
+    
+}
+
+.Number{
+    width: 18vw;
+    height: 4vh;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.Password{
+    width: 18vw;
+    height: 4vh;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+
+
+
+/* --------NEXT BUTTON CSS-------- */
+.next{
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: 50px;
+    background-color:#A073FF;
+    border-radius: 10px;
+    width: 19vw;
+    height: 4vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    padding: 7px 0px 5px 5px;
+      
+}
+
+
+/* -------SUBMIT BUTTON CSS------- */
+.submit{
+	position: relative;
+	top: 30px;
+	border: none;
+	background-color:#73ffad;
+    border-radius: 10px;
+    width: 19.3vw;
+    height: 6vh;
+    color: white;
+	font-size: 1rem;
+	padding: 7px 0px 5px 5px;
+	font-family: 'Noto Sans Malayalam', sans-serif;
+
+}
+
+
+/* --------SUBMIT BUTTON CSS CODE---------- */
+.submit:hover{
+	background-color: white;
+	border:1px solid #73ffad;
+	color:#73ffad;
+	
+}
+
+
+/* -------LEFT SIDE OF THE FORM--------- */
+.box1 {
+	background-image: url("signin2.webp");
+    position: relative;
+
+    left: 20px;
+	width: 90%;
+	height: 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

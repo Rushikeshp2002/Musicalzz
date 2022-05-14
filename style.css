@@ -68,6 +68,7 @@ nav{
       /* text-fill-color: transparent; */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      /* ------ANIMATION FOR THE LOGO---------- */
       animation: textclip 2s ease-in-out infinite;
 
       
@@ -83,6 +84,7 @@ nav{
 
 /* Sign-in Login */
 .other{
+    text-decoration: none;
     transform: translate(100%,-20%);
     padding: 0vw 3vw;
     font-size: 2.5vw;
@@ -110,7 +112,15 @@ nav{
 
 /* Explore Button */
 
-.btn1{
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* -------BUTTON CSS -------- */
+.btn1 {
     transform: translate(350%,900%);
     outline: none;
     padding: auto;
@@ -124,6 +134,7 @@ nav{
     background: rgba(5, 251, 0, 0.76);
     box-shadow: 16px 16px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Londrina Solid', cursive;
+    /* -------ANIMATION FOR FLOATING BUTTON */
     animation: explore cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite 2s;
     
 }
@@ -140,6 +151,9 @@ nav{
     }
     
 }
+
+
+/* ------HOVER EFFECT FOR THE BUTTON */
 
 .btn1:hover{
     background: rgba(67, 255, 20, 0.986);
