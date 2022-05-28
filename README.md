@@ -25,9 +25,6 @@
 <h1>Home</h1>
 <img src="https://github.com/Rushikeshp2002/Images/blob/main/home.png" style="width:100%">
 <hr>
-<br>
-<h1>Card Hover</h1>
-<img src="https://github.com/Rushikeshp2002/Images/blob/main/home1.png" style="width:100%">
 <h1>Create</h1>
 <img src="https://github.com/Rushikeshp2002/Images/blob/main/create.png" style="width:100%">
 <hr>
