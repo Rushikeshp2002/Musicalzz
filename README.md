@@ -4,7 +4,7 @@
 <h1>Start page</h1>
 <hr>
 <br>
-<img src="https://github.com/Rushikeshp2002/Images/blob/main/index%20.png" style="width:100%">
+<img src="https://github.com/Rushikeshp2002/Images/blob/main/index2.png" style="width:100%">
 <hr>
 <br>
 <hr>
