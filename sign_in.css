@@ -7,7 +7,7 @@
 body {
 	max-width: 100%;
 	min-height: 100%;
-	background: #7392ff;
+	background-image: url(imag10.jpg);
     overflow: hidden;
 }
 
@@ -15,16 +15,19 @@ body {
 /* ---------CONTAINER----------- */
 .container {
 	display: inline-flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	width: 40vw;
-	height: 30vh;
+	
 	position: absolute;
-	width: 70vw;
+	width: 38vw;
 	height: 70vh;
-	left: 250px;
+	left: 480px;
 	top: 120px;
-	background: #ffffff;
+    backdrop-filter: blur(6px) saturate(180%);
+    -webkit-backdrop-filter: blur(6px) saturate(180%);
+    background-color: rgba(254, 254, 254, 0.24);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 	box-shadow: 17px 17px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 29px 29px;
 }
@@ -52,12 +55,12 @@ body {
 	align-items: center;
 	letter-spacing: 0.01em;
 
-	color: #716a6a;
+	color: #ffffff;
 }
 
 .or{
     position: relative;
-    left: 130px;
+    left: 140px;
 }
 
 
@@ -65,17 +68,17 @@ body {
 /* -------GOOGLE BUTTON------ */
 .google{
     position: relative;
-    left: 66px;
+    left: 90px;
 }
 .box2 h1 {
     position: relative;
-    left: 15px;
+    right: 1rem;
 	@import url(http://fonts.googleapis.com/earlyaccess/khyay.css);
 	font-family: "Khyay", sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 66px;
-	color: #316bff;
+	font-size: 5rem;
+	color: #ffffff;
 	line-height: 80px;
 	letter-spacing: 3px;
 }
@@ -89,7 +92,8 @@ body {
     border-radius: 10px;
     position: relative;
     padding: 0px 10px;
-    color: #716a6a;
+    color: #ffffff;
+    border: 0.5px solid white;
     
 }
 
@@ -98,6 +102,7 @@ body {
     height: 4vh;
     border-radius: 10px;
     padding: 0px 10px;
+    border: 0.5px solid white;
 }
 
 .email{
@@ -105,14 +110,15 @@ body {
     height: 4vh;
     border-radius: 10px;
     padding: 0px 10px;
+    border: 0.5px solid white;
 }
 
 .submit{
     background-color: white;
     border-radius: 10px;
     width: 19.5vw;
-    height: 30px;
-    border:#316bff 2px solid;
+    height: 40px;
+    border:#ffffff 2px solid;
     position: relative;
     top: 30px;
     /* left: 100px; */
@@ -125,7 +131,7 @@ body {
 
 /* -----SUBMIT BUTTON HOVER------- */
 .submit:hover{
-    background-color: #31ff9f;
+    background-color: #ffcaa7;
     color: white;
     border: none;
 }
@@ -137,10 +143,10 @@ body {
     display: flex;
     position: relative;
     top: 50px;
-    background-color:#316bff;
+    background-color:#31b3ffeb;
     border-radius: 10px;
     width: 18vw;
-    height: 30px;
+    height: 39px;
     color: white;
     align-items: center;
     justify-content: center;
@@ -153,14 +159,4 @@ body {
 
 
 /* --------LEFT SIDE IMAGE CSS---------- */
-.box1 {
-	background-image: url("signin.webp");
-    position: relative;
-    
-    left: 20px;
-	width: 90%;
-	height: 90%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 

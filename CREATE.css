@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("bgimg.webp");
+    background-image: url("homebg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -104,9 +104,13 @@ nav{
 	align-items: center;
 	width: 40vw;
 	height: 80vh;
-	margin-left: 31%;
+	margin-left: 30.5%;
     margin-top: 2%;
-	background: #ffffff;
+    backdrop-filter: blur(3px) saturate(200%);
+    -webkit-backdrop-filter: blur(3px) saturate(200%);
+    background-color: rgba(205, 40, 255, 0.203);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 	box-shadow: 17px 17px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 29px 29px;
 }
@@ -123,7 +127,8 @@ form{
 /* ------PARAGRAPH CSS--------- */
 p{
     font-family: "Sunflower";
-    color: #716a6a;
+    color: #ffffff;
+    font-size: 1.2rem;
 }
 
 /* ---------SEPEARATE CSS FOR FORMS---------- */
@@ -162,10 +167,11 @@ p{
     display: flex;
     position: relative;
     top: 50px;
-    background-color:#FF6A6A;
+    background-color:#ff3c6ad3;
     border-radius: 10px;
     width: 31.5vw;
     height: 5vh;
+    font-size: 1.2rem;
     color: white;
     align-items: center;
     justify-content: center;
@@ -186,7 +192,7 @@ p{
     width: 32vw;
     height: 6vh;
     color: white;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding: 7px 0px 5px 5px;
 	font-family: 'Noto Sans Malayalam', sans-serif;
 
